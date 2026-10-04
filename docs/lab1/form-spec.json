@@ -1,0 +1,97 @@
+{
+  "title": "Получить коммерческое предложение - Модуль",
+  "variant": "ЛР1 PDF, вариант (Ф) «Получить коммерческое предложение»",
+  "platform": "Яндекс Формы (план)",
+  "status": "draft-local",
+  "publication": "pending: форма не создана во внешнем аккаунте",
+  "purpose": "Собрать учебный B2B-запрос по каталогу модульных конструкторов.",
+  "privacy_note": "Использовать только вымышленные данные. В локальном MVP заявки хранятся в localStorage; эта JSON-схема не является опубликованной формой.",
+  "fields": [
+    {
+      "id": "name",
+      "type": "text",
+      "label": "Ваше имя",
+      "required": true,
+      "placeholder": "Алексей"
+    },
+    {
+      "id": "company",
+      "type": "text",
+      "label": "Компания",
+      "required": true,
+      "placeholder": "Компания «Пример»"
+    },
+    {
+      "id": "email",
+      "type": "email",
+      "label": "Рабочий email",
+      "required": true,
+      "placeholder": "demo@example.com",
+      "validation": "email"
+    },
+    {
+      "id": "phone",
+      "type": "tel",
+      "label": "Телефон",
+      "required": false,
+      "placeholder": "+7 900 000-00-00"
+    },
+    {
+      "id": "direction",
+      "type": "radio",
+      "label": "Направление",
+      "required": true,
+      "options": [
+        "Образование",
+        "Корпоративные подарки",
+        "Розница"
+      ]
+    },
+    {
+      "id": "product",
+      "type": "select",
+      "label": "Интересующий набор",
+      "required": true,
+      "options": "Каталог «Модуль»; перечень синхронизируется вручную после публикации"
+    },
+    {
+      "id": "quantity",
+      "type": "number",
+      "label": "Ориентировочное количество, шт.",
+      "required": true,
+      "min": 1,
+      "max": 10000
+    },
+    {
+      "id": "comment",
+      "type": "textarea",
+      "label": "Комментарий",
+      "required": false,
+      "maxLength": 1000
+    },
+    {
+      "id": "consent",
+      "type": "checkbox",
+      "label": "Подтверждаю сохранение учебной заявки и не ввожу реальные персональные данные",
+      "required": true
+    }
+  ],
+  "success_message": "Заявка сохранена в учебной форме. Канал отправки и CRM не подключены.",
+  "error_messages": {
+    "required": "Заполните обязательное поле.",
+    "email": "Введите email в формате demo@example.com.",
+    "quantity": "Укажите целое количество в допустимом диапазоне.",
+    "consent": "Подтвердите учебный режим."
+  },
+  "branches": [
+    {
+      "when": "direction=Розница",
+      "show": "product,quantity,comment"
+    },
+    {
+      "when": "direction=Образование или Корпоративные подарки",
+      "show": "product,quantity,comment"
+    }
+  ],
+  "external_url": null
+}

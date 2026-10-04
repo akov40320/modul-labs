@@ -1,0 +1,7 @@
+user_story,requirement,tasks,screen_or_flow,implementation_evidence,test_evidence,status
+US-01,Просмотреть предложение,MOD-101; MOD-102; MOD-103,"hero, якоря, блоки, FAQ, contacts, mobile nav",../project/app/index.html,../evidence/browser-checks.json (initial catalog/hero; mobile navigation/no overflow),passed locally; 10 browser scenarios overall
+US-02,Найти набор,MOD-201; MOD-202,"catalog cards, category/search/budget/sort",../project/app/index.html,../evidence/browser-checks.json (category/search/budget/reset/sorting),passed locally
+US-03,Изменить демонстрационный каталог,MOD-203,workspace editor,../project/app/index.html,../evidence/browser-checks.json (catalog editor updates price and survives reload),passed locally
+US-04,Рассчитать заявку,MOD-302,request form quote box,../project/app/index.html,"../evidence/browser-checks.json (valid lead, discount calculation, local persistence)",passed locally; total/discount scenario recorded
+US-05,Сохранить учебную заявку,MOD-301; MOD-302,request form and validation,../project/app/index.html,../evidence/browser-checks.json (invalid form blocked; valid lead persistence); ../project/evidence/test.log,passed locally
+US-06,Контролировать локальные данные,MOD-303,workspace leads/export/delete,../project/app/index.html,../evidence/browser-checks.json (JSON export; delete lead; restore catalog),passed locally

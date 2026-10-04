@@ -1,0 +1,14 @@
+{
+  "name": "modul-b2b-mvp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Учебный MVP B2B-лендинга конструкторов «Модуль», вариант 4",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "lint": "node scripts/lint.mjs",
+    "test": "node --test",
+    "build": "node scripts/build.mjs"
+  }
+}

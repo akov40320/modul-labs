@@ -1,0 +1,7 @@
+project/dist/
+project/evidence/
+evidence/
+Отчёты/
+*.zip
+*.bundle
+.DS_Store

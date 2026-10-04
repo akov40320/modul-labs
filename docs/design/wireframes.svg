@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200">
+<defs><style>.bg{fill:#f4f6fa}.frame{fill:#fff;stroke:#9eacbf;stroke-width:2}.box{fill:#e9edf3;stroke:#b1bdcd}.dark{fill:#50657f}.ink{fill:#22334a;font-family:Arial, sans-serif}.label{font-size:22px;font-weight:bold}.small{font-size:16px}.tiny{font-size:13px}.heading{font-size:36px;font-weight:bold}.caption{font-size:17px;fill:#586c86}.button{fill:#5c7393}.btn{fill:#fff;font-size:15px;font-family:Arial,sans-serif}.line{stroke:#899aaf;stroke-width:2}</style></defs>
+<rect class="bg" width="1600" height="1200"/>
+<text x="50" y="52" class="ink heading">«Модуль»: wireframes локального MVP</text><text x="50" y="82" class="ink caption">Низкая детализация · редактируемый SVG · учебный проект · внешние публикации pending</text>
+<!-- desktop landing -->
+<rect class="frame" x="50" y="120" width="720" height="460" rx="12"/>
+<text x="70" y="150" class="ink label">W1 / Главная и каталог</text>
+<rect class="box" x="70" y="170" width="680" height="42"/>
+<text x="86" y="197" class="ink small">МОДУЛЬ</text><text x="280" y="197" class="ink tiny">О продукте / Каталог / FAQ / Контакты</text>
+<rect class="box" x="70" y="227" width="680" height="152"/>
+<text x="90" y="265" class="ink label">Большие идеи.</text><text x="90" y="294" class="ink label">Маленькие детали.</text>
+<text x="90" y="321" class="ink tiny">Краткая польза для B2B-клиента</text>
+<rect class="button" x="90" y="336" width="175" height="28" rx="4"/><text x="105" y="355" class="btn">Подобрать набор</text>
+<rect class="box" x="466" y="247" width="260" height="113"/><text x="510" y="305" class="ink small">Иллюстрация наборов</text>
+<text x="78" y="408" class="ink small">Категории / поиск / предел цены / сортировка</text>
+<rect class="box" x="70" y="424" width="214" height="130"/><rect class="box" x="302" y="424" width="214" height="130"/><rect class="box" x="536" y="424" width="214" height="130"/>
+<text x="89" y="454" class="ink small">Набор A</text><text x="321" y="454" class="ink small">Набор B</text><text x="555" y="454" class="ink small">Набор C</text>
+<text x="89" y="487" class="ink tiny">Категория / цена / детали</text><text x="321" y="487" class="ink tiny">Категория / цена / детали</text><text x="555" y="487" class="ink tiny">Категория / цена / детали</text>
+<text x="89" y="526" class="ink tiny">Выбрать для заявки →</text><text x="321" y="526" class="ink tiny">Выбрать для заявки →</text><text x="555" y="526" class="ink tiny">Выбрать для заявки →</text>
+<!-- desktop form -->
+<rect class="frame" x="820" y="120" width="730" height="460" rx="12"/>
+<text x="840" y="150" class="ink label">W2 / Форма запроса</text>
+<text x="840" y="190" class="ink small">Получить коммерческое предложение</text>
+<text x="840" y="217" class="ink tiny">Только учебные данные, сохранение в браузере</text>
+<rect class="box" x="840" y="237" width="326" height="48"/><text x="856" y="266" class="ink small">Имя *</text>
+<rect class="box" x="1184" y="237" width="346" height="48"/><text x="1200" y="266" class="ink small">Компания *</text>
+<rect class="box" x="840" y="302" width="326" height="48"/><text x="856" y="331" class="ink small">Рабочий email *</text>
+<rect class="box" x="1184" y="302" width="346" height="48"/><text x="1200" y="331" class="ink small">Телефон (необязательно)</text>
+<rect class="box" x="840" y="367" width="326" height="48"/><text x="856" y="396" class="ink small">Набор *</text>
+<rect class="box" x="1184" y="367" width="346" height="48"/><text x="1200" y="396" class="ink small">Количество *</text>
+<rect class="box" x="840" y="434" width="690" height="42"/><text x="856" y="461" class="ink small">Ориентировочный расчет / скидка / сообщения ошибок</text>
+<text x="840" y="503" class="ink small">□ Согласие с учебным режимом *</text>
+<rect class="button" x="840" y="519" width="285" height="35" rx="4"/><text x="855" y="542" class="btn">Сохранить учебную заявку</text>
+<!-- workspace -->
+<rect class="frame" x="50" y="630" width="720" height="515" rx="12"/>
+<text x="70" y="663" class="ink label">W3 / Учебный кабинет</text>
+<text x="70" y="702" class="ink small">Заявки [n] / Редактор каталога</text>
+<rect class="box" x="70" y="721" width="680" height="70"/>
+<text x="89" y="750" class="ink small">Сохраненная заявка</text><text x="89" y="775" class="ink tiny">Компания, набор, количество, сумма, дата</text>
+<rect class="button" x="535" y="744" width="91" height="30" rx="4"/><text x="550" y="765" class="btn">Экспорт</text>
+<rect class="button" x="634" y="744" width="97" height="30" rx="4"/><text x="648" y="765" class="btn">Удалить</text>
+<rect class="box" x="70" y="811" width="680" height="294"/>
+<text x="89" y="843" class="ink small">Редактор каталога (открытая демонстрация)</text>
+<rect class="frame" x="89" y="867" width="299" height="49"/><text x="104" y="897" class="ink tiny">Название / направление</text>
+<rect class="frame" x="89" y="931" width="299" height="49"/><text x="104" y="961" class="ink tiny">Цена / детали / минимальная партия</text>
+<rect class="frame" x="89" y="995" width="299" height="49"/><text x="104" y="1025" class="ink tiny">Описание</text>
+<rect class="button" x="89" y="1063" width="169" height="27" rx="4"/><text x="105" y="1082" class="btn">Сохранить набор</text>
+<text x="430" y="891" class="ink small">Список позиций</text><text x="430" y="928" class="ink tiny">Набор A / изменить / удалить</text><text x="430" y="965" class="ink tiny">Набор B / изменить / удалить</text><text x="430" y="1002" class="ink tiny">Набор C / изменить / удалить</text><text x="430" y="1064" class="ink tiny">Восстановить исходный каталог</text>
+<!-- mobile -->
+<rect class="frame" x="820" y="630" width="730" height="515" rx="12"/>
+<text x="840" y="663" class="ink label">W4 / Мобильный экран</text>
+<rect class="frame" x="845" y="687" width="267" height="421" rx="12"/>
+<rect class="box" x="861" y="705" width="235" height="38"/><text x="876" y="729" class="ink small">МОДУЛЬ</text><text x="1030" y="729" class="ink tiny">Меню</text>
+<text x="861" y="778" class="ink label">Большие идеи.</text><text x="861" y="807" class="ink label">Маленькие детали.</text>
+<rect class="box" x="861" y="827" width="235" height="80"/><text x="886" y="872" class="ink small">Иллюстрация</text>
+<rect class="button" x="861" y="923" width="235" height="34" rx="4"/><text x="881" y="946" class="btn">Подобрать набор</text>
+<rect class="box" x="861" y="975" width="235" height="110"/><text x="880" y="1007" class="ink small">Карточка набора</text><text x="880" y="1042" class="ink tiny">Цена / детали / партия</text>
+<text x="1152" y="717" class="ink small">Правила мобильной версии:</text>
+<text x="1152" y="755" class="ink tiny">• один столбец карточек;</text><text x="1152" y="787" class="ink tiny">• поля формы по ширине окна;</text><text x="1152" y="819" class="ink tiny">• кликабельные области ≥ 44 px;</text><text x="1152" y="851" class="ink tiny">• видимый фокус клавиатуры;</text><text x="1152" y="883" class="ink tiny">• без горизонтального скролла;</text><text x="1152" y="915" class="ink tiny">• ошибки рядом с полем.</text>
+<text x="1152" y="983" class="ink tiny">Это низкодетализированные макеты.</text><text x="1152" y="1015" class="ink tiny">Утверждение заказчиком/дизайнером</text><text x="1152" y="1047" class="ink tiny">не заявляется.</text>
+</svg>
