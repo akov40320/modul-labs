@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200">
 <defs><style>.bg{fill:#f4f6fa}.frame{fill:#fff;stroke:#9eacbf;stroke-width:2}.box{fill:#e9edf3;stroke:#b1bdcd}.dark{fill:#50657f}.ink{fill:#22334a;font-family:Arial, sans-serif}.label{font-size:22px;font-weight:bold}.small{font-size:16px}.tiny{font-size:13px}.heading{font-size:36px;font-weight:bold}.caption{font-size:17px;fill:#586c86}.button{fill:#5c7393}.btn{fill:#fff;font-size:15px;font-family:Arial,sans-serif}.line{stroke:#899aaf;stroke-width:2}</style></defs>
 <rect class="bg" width="1600" height="1200"/>
-<text x="50" y="52" class="ink heading">«Модуль»: wireframes локального MVP</text><text x="50" y="82" class="ink caption">Низкая детализация · редактируемый SVG · учебный проект · внешние публикации pending</text>
+<text x="50" y="52" class="ink heading">«Модуль»: wireframes MVP</text><text x="50" y="82" class="ink caption">Низкая детализация · макеты опубликованы в Figma: https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/</text>
 <!-- desktop landing -->
 <rect class="frame" x="50" y="120" width="720" height="460" rx="12"/>
 <text x="70" y="150" class="ink label">W1 / Главная и каталог</text>

@@ -1,37 +1,27 @@
-# Локальный комплект материалов лабораторных работ
+# Документация проекта «Модуль»
 
-[Открыть offline-индекс](index.html)
+[Открыть страницу материалов](index.html)
 
-Проект: **«Модуль» - учебный B2B-лендинг конструкторов**.
-
-Все файлы в этой папке подготовлены для локальной проверки и последующего переноса в нужные внешние сервисы. Внешняя организация Яндекс 360, Яндекс Трекер, Wiki, GitHub/GitLab, Яндекс Формы и публичный хостинг в этом комплекте не создавались. Там, где задание требует внешний URL, указано `pending` или «URL не задан».
+Приложение опубликовано в [GitHub Pages](https://akov40320.github.io/modul-labs/), исходники — в [GitHub](https://github.com/akov40320/modul-labs). [Яндекс Форма](https://forms.yandex.ru/u/6ac336f295add59f2d7597ad) опубликована с восемью вопросами; пробная отправка и сообщения ошибок проверены. CI/CD выполнен в реальном репозитории. [Wiki](https://github.com/akov40320/modul-labs/wiki) опубликована; [Project](https://github.com/users/akov40320/projects/1) создан с 16 issues; [Figma](https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/) содержит проверенные макеты; [Алиса AI](https://alice.yandex.ru/chat/01a10a9a-23e4-4000-ab5b-a5dc1bb7b0b2/) — два реальных запроса. Кликабельный прототип проверен; поля доски заполнены и проверены: 14 Done / 2 In Progress.
 
 ## Навигация
 
-- [Выбор вариантов и требования](source-choices.md)
-- [Wiki: Home](wiki/Home.md)
-- [Wiki: Team](wiki/Team.md)
-- [Wiki: Glossary](wiki/Glossary.md)
-- [Wiki: Onboarding](wiki/Onboarding.md)
-- [Wiki: Decision Log](wiki/Decision-Log.md)
-- [Wiki: MVP Scope](wiki/MVP-Scope.md)
-- [CI/CD Pipeline](wiki/CI-CD-Pipeline.md)
-- [ЛР1: промпты Алисы](lab1/prompts.md)
-- [ЛР1: спецификация формы](lab1/form-spec.json)
-- [ЛР1: структура формы](lab1/form-structure.md)
-- [ЛР1: план публикации](lab1/publication-instructions.md)
-- [ЛР2: backlog](lab2/backlog.csv)
-- [ЛР3: MVP Scope и трассировка](lab3/MVP-Scope.md)
-- [ЛР4: локальная Kanban-доска](board.html)
-- [ЛР4: план работы](lab4/sprint-plan.md)
-- [ЛР5: Git Flow материалы](lab5/Git-Workflow.md)
-- [ЛР6: CI/CD план](lab6/CI-CD-Plan.md)
-- [User Flow (draw.io)](design/user-flow.drawio)
-- [Wireframes SVG](design/wireframes.svg)
-- [Wireframes HTML](design/wireframes.html)
+- [Соответствие сервисов исходным заданиям](service-mapping.md)
+- [Реестр онлайн-результатов](online-results.json)
+- [Выбор вариантов](source-choices.md)
+- [Wiki Home](wiki/Home.md), [Team](wiki/Team.md), [Glossary](wiki/Glossary.md)
+- [Onboarding](wiki/Onboarding.md), [Decision Log](wiki/Decision-Log.md)
+- [MVP Scope](wiki/MVP-Scope.md), [CI/CD Pipeline](wiki/CI-CD-Pipeline.md)
+- [ЛР1: реальный сеанс Алисы](lab1/alice-session.md), [промпты](lab1/prompts.md), [спецификация](lab1/form-spec.json), [структура](lab1/form-structure.md), [публикация](lab1/publication-instructions.md)
+- [ЛР2: backlog](lab2/backlog.csv), [настройка Projects](lab2/tracker-setup-plan.md), [реестр внешних действий](lab2/external-steps.csv)
+- [ЛР3: трассировка](lab3/MVP-Scope.md)
+- [ЛР4: снимок задач](board.html), [план Kanban](lab4/sprint-plan.md)
+- [ЛР5: GitHub Flow](lab5/Git-Workflow.md), [конфликт](conflict-demo.md)
+- [ЛР6: результаты CI/CD](lab6/CI-CD-Plan.md)
+- [User Flow](design/user-flow.drawio), [макеты SVG](design/wireframes.svg), [просмотр макетов](design/wireframes.html)
 
-## Статусы
+## Состояния
 
-- **Готово локально** - файл или локальная демонстрация создана и может быть проверена без внешнего аккаунта.
-- **Запланировано** - содержание подготовлено, но действие еще не выполнено.
-- **Ожидает внешнего шага** - нужен доступ к Яндекс 360/Трекеру/Forms или удаленному Git-репозиторию.
+**Выполнено** означает, что указан проверяемый результат: файл, журнал, URL или сервисное действие. **В работе** означает начатый, но еще не завершенный этап. **pending** используется для результатов без подтвержденной ссылки или завершенной проверки. Состояние каждой интеграции фиксируется отдельно.
+
+Студент: А.А. Первых, 3Втба-1. Преподаватели: Абарникова Елена Борисовна, Шаповалова Варвара Сергеевна.

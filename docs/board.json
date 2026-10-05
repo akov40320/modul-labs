@@ -2,57 +2,75 @@
   "project": {
     "key": "MOD",
     "name": "Модуль",
-    "description": "Учебный B2B-лендинг конструкторов; локальная доска без удаленного Трекера."
+    "description": "B2B-лендинг конструкторов; подтвержденный снимок работ проекта.",
+    "repository_url": "https://github.com/akov40320/modul-labs",
+    "application_url": "https://akov40320.github.io/modul-labs/",
+    "project_url": "https://github.com/users/akov40320/projects/1",
+    "external_project_status": "configured and verified",
+    "wiki_url": "https://github.com/akov40320/modul-labs/wiki",
+    "figma_url": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/",
+    "milestone_url": "https://github.com/akov40320/modul-labs/milestone/1",
+    "figma_prototype_url": "https://www.figma.com/proto/QJOUjnQiwxzXIUY2ATDpZm/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C-%E2%80%94-MVP-%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%D1%8B-%D0%B8-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9-%D0%BF%D1%83%D1%82%D1%8C?node-id=1-105&t=QIxddXrGjI39AaY0-0&scaling=min-zoom&content-scaling=fixed&page-id=1%3A104&starting-point-node-id=1%3A105"
   },
   "period": {
-    "start": "2026-10-04",
+    "start": "2026-10-05",
     "end": "2026-10-10",
-    "kind": "учебный план",
-    "note": "Период не является отчетом о фактически прошедшей работе."
+    "kind": "план работ по MVP",
+    "note": "Фактические результаты и плановые действия отмечаются отдельно."
   },
   "methodology": {
     "name": "Kanban",
-    "reason": "Непрерывный поток подходит для небольшого MVP и не требует выдумывать спринт-команду.",
+    "reason": "Непрерывный поток требований, дизайна, реализации и проверки подходит для MVP.",
     "columns": [
-      "Бэклог",
-      "К выполнению",
-      "В работе",
-      "На проверке",
-      "Готово"
+      "Backlog",
+      "To Do",
+      "In Progress",
+      "Review",
+      "Done"
     ],
     "wip_limit_team": 2,
-    "wip_limit_personal": 1
+    "wip_limit_review": 1
   },
   "columns": [
     {
       "id": "backlog",
       "name": "Бэклог",
       "wip_limit": null,
-      "cards": []
+      "cards": [],
+      "service_status": "Backlog"
     },
     {
       "id": "todo",
       "name": "К выполнению",
       "wip_limit": null,
-      "cards": []
+      "cards": [],
+      "service_status": "To Do"
     },
     {
       "id": "progress",
       "name": "В работе",
       "wip_limit": 2,
-      "cards": []
+      "cards": [
+        "MOD-EPIC-04",
+        "MOD-403"
+      ],
+      "service_status": "In Progress"
     },
     {
       "id": "review",
       "name": "На проверке",
-      "wip_limit": null,
-      "cards": []
+      "wip_limit": 1,
+      "cards": [],
+      "service_status": "Review"
     },
     {
       "id": "done",
       "name": "Готово",
       "wip_limit": null,
       "cards": [
+        "MOD-EPIC-01",
+        "MOD-EPIC-02",
+        "MOD-EPIC-03",
         "MOD-101",
         "MOD-102",
         "MOD-103",
@@ -63,85 +81,241 @@
         "MOD-302",
         "MOD-303",
         "MOD-401",
-        "MOD-402",
-        "MOD-403"
-      ]
+        "MOD-402"
+      ],
+      "service_status": "Done"
     }
   ],
   "cards": {
+    "MOD-EPIC-01": {
+      "title": "Витрина и структура B2B-лендинга",
+      "type": "Epic",
+      "priority": "P1",
+      "status": "Done",
+      "role": "Team Lead / frontend",
+      "assignee": "akov40320",
+      "issue_url": "https://github.com/akov40320/modul-labs/issues/2",
+      "github_issue_state": "closed",
+      "start_date": "2026-10-05",
+      "target_date": "2026-10-10",
+      "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+    },
+    "MOD-EPIC-02": {
+      "title": "Каталог и фильтрация",
+      "type": "Epic",
+      "priority": "P1",
+      "status": "Done",
+      "role": "Team Lead / frontend",
+      "assignee": "akov40320",
+      "issue_url": "https://github.com/akov40320/modul-labs/issues/3",
+      "github_issue_state": "closed",
+      "start_date": "2026-10-05",
+      "target_date": "2026-10-10",
+      "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+    },
+    "MOD-EPIC-03": {
+      "title": "Заявка и локальные данные",
+      "type": "Epic",
+      "priority": "P1",
+      "status": "Done",
+      "role": "backend / DevOps",
+      "assignee": "akov40320",
+      "issue_url": "https://github.com/akov40320/modul-labs/issues/4",
+      "github_issue_state": "closed",
+      "start_date": "2026-10-05",
+      "target_date": "2026-10-10",
+      "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+    },
+    "MOD-EPIC-04": {
+      "title": "Документация и качество",
+      "type": "Epic",
+      "priority": "P2",
+      "status": "In Progress",
+      "role": "аналитик / дизайн / QA",
+      "assignee": "akov40320",
+      "issue_url": "https://github.com/akov40320/modul-labs/issues/5",
+      "github_issue_state": "open",
+      "start_date": "2026-10-05",
+      "target_date": "2026-10-10",
+      "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+    },
     "MOD-101": {
       "title": "Hero и якорная навигация",
-      "priority": "Высокий",
-      "kind": "Готово локально"
+      "type": "Доработка",
+      "priority": "P1",
+      "status": "Done",
+      "role": "Team Lead / frontend",
+      "assignee": "akov40320",
+      "issue_url": "https://github.com/akov40320/modul-labs/issues/6",
+      "github_issue_state": "closed",
+      "start_date": "2026-10-05",
+      "target_date": "2026-10-10",
+      "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
     },
     "MOD-102": {
       "title": "Контентные блоки, FAQ и контакты",
-      "priority": "Высокий",
-      "kind": "Готово локально"
+      "type": "Доработка",
+      "priority": "P1",
+      "status": "Done",
+      "role": "аналитик / дизайн / QA",
+      "assignee": "akov40320",
+      "issue_url": "https://github.com/akov40320/modul-labs/issues/7",
+      "github_issue_state": "closed",
+      "start_date": "2026-10-05",
+      "target_date": "2026-10-10",
+      "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
     },
     "MOD-103": {
       "title": "Адаптивность и базовая доступность",
-      "priority": "Средний",
-      "kind": "Готово локально"
+      "type": "Доработка",
+      "priority": "P2",
+      "status": "Done",
+      "role": "аналитик / дизайн / QA",
+      "assignee": "akov40320",
+      "issue_url": "https://github.com/akov40320/modul-labs/issues/8",
+      "github_issue_state": "closed",
+      "start_date": "2026-10-05",
+      "target_date": "2026-10-10",
+      "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
     },
     "MOD-201": {
       "title": "Каталог наборов и карточки",
-      "priority": "Высокий",
-      "kind": "Готово локально"
-    },
-    "MOD-203": {
-      "title": "Учебный редактор каталога",
-      "priority": "Средний",
-      "kind": "Готово локально"
-    },
-    "MOD-301": {
-      "title": "Валидация формы коммерческого предложения",
-      "priority": "Высокий",
-      "kind": "Готово локально"
-    },
-    "MOD-303": {
-      "title": "Кабинет заявок, экспорт и очистка",
-      "priority": "Средний",
-      "kind": "Готово локально"
-    },
-    "MOD-401": {
-      "title": "Wiki, User Flow и wireframes",
-      "priority": "Средний",
-      "kind": "Готово локально"
-    },
-    "MOD-402": {
-      "title": "Локальные lint, test и build для будущего CI",
-      "priority": "Средний",
-      "kind": "Готово локально"
-    },
-    "MOD-403": {
-      "title": "Трассировка отчета и статусы внешних шагов",
-      "priority": "Средний",
-      "kind": "Готово локально"
+      "type": "Доработка",
+      "priority": "P1",
+      "status": "Done",
+      "role": "Team Lead / frontend",
+      "assignee": "akov40320",
+      "issue_url": "https://github.com/akov40320/modul-labs/issues/9",
+      "github_issue_state": "closed",
+      "start_date": "2026-10-05",
+      "target_date": "2026-10-10",
+      "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
     },
     "MOD-202": {
       "title": "Фильтры, поиск и сортировка каталога",
-      "priority": "Высокий",
-      "kind": "Готово локально"
+      "type": "Доработка",
+      "priority": "P1",
+      "status": "Done",
+      "role": "Team Lead / frontend",
+      "assignee": "akov40320",
+      "issue_url": "https://github.com/akov40320/modul-labs/issues/10",
+      "github_issue_state": "closed",
+      "start_date": "2026-10-05",
+      "target_date": "2026-10-10",
+      "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+    },
+    "MOD-203": {
+      "title": "Учебный редактор каталога",
+      "type": "Доработка",
+      "priority": "P2",
+      "status": "Done",
+      "role": "backend / DevOps",
+      "assignee": "akov40320",
+      "issue_url": "https://github.com/akov40320/modul-labs/issues/11",
+      "github_issue_state": "closed",
+      "start_date": "2026-10-05",
+      "target_date": "2026-10-10",
+      "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+    },
+    "MOD-301": {
+      "title": "Валидация формы коммерческого предложения",
+      "type": "Доработка",
+      "priority": "P1",
+      "status": "Done",
+      "role": "Team Lead / frontend",
+      "assignee": "akov40320",
+      "issue_url": "https://github.com/akov40320/modul-labs/issues/12",
+      "github_issue_state": "closed",
+      "start_date": "2026-10-05",
+      "target_date": "2026-10-10",
+      "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
     },
     "MOD-302": {
       "title": "Расчет партии и сохранение заявки",
-      "priority": "Высокий",
-      "kind": "Готово локально"
+      "type": "Доработка",
+      "priority": "P1",
+      "status": "Done",
+      "role": "backend / DevOps",
+      "assignee": "akov40320",
+      "issue_url": "https://github.com/akov40320/modul-labs/issues/13",
+      "github_issue_state": "closed",
+      "start_date": "2026-10-05",
+      "target_date": "2026-10-10",
+      "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+    },
+    "MOD-303": {
+      "title": "Кабинет заявок, экспорт и очистка",
+      "type": "Доработка",
+      "priority": "P2",
+      "status": "Done",
+      "role": "backend / DevOps",
+      "assignee": "akov40320",
+      "issue_url": "https://github.com/akov40320/modul-labs/issues/14",
+      "github_issue_state": "closed",
+      "start_date": "2026-10-05",
+      "target_date": "2026-10-10",
+      "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+    },
+    "MOD-401": {
+      "title": "Wiki, User Flow и wireframes",
+      "type": "Доработка",
+      "priority": "P2",
+      "status": "Done",
+      "role": "аналитик / дизайн / QA",
+      "assignee": "akov40320",
+      "issue_url": "https://github.com/akov40320/modul-labs/issues/15",
+      "github_issue_state": "closed",
+      "start_date": "2026-10-05",
+      "target_date": "2026-10-10",
+      "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+    },
+    "MOD-402": {
+      "title": "GitHub Actions CI/CD, проверки и публикация",
+      "type": "Доработка",
+      "priority": "P2",
+      "status": "Done",
+      "role": "backend / DevOps",
+      "assignee": "akov40320",
+      "issue_url": "https://github.com/akov40320/modul-labs/issues/16",
+      "github_issue_state": "closed",
+      "start_date": "2026-10-05",
+      "target_date": "2026-10-10",
+      "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+    },
+    "MOD-403": {
+      "title": "Трассировка отчета и статусы внешних шагов",
+      "type": "Доработка",
+      "priority": "P2",
+      "status": "In Progress",
+      "role": "аналитик / дизайн / QA",
+      "assignee": "akov40320",
+      "issue_url": "https://github.com/akov40320/modul-labs/issues/17",
+      "github_issue_state": "open",
+      "start_date": "2026-10-05",
+      "target_date": "2026-10-10",
+      "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
     }
   },
   "rules": [
-    "Kanban: карточка движется слева направо после проверки результата.",
-    "Общий WIP колонки «В работе» - 2.",
-    "При одном исполнителе личный WIP - 1: одновременно одна активная задача.",
-    "Сначала завершить/передать задачу на проверку, затем брать следующую.",
-    "Локальные MVP-карточки переведены в «Готово» после smoke/unit-проверок; внешние действия перечислены отдельно в lab2/external-steps.csv и остаются pending."
+    "Снимок 16 реальных карточек GitHub Projects: 14 Done / 2 In Progress.",
+    "WIP In Progress — 2; Review — 1.",
+    "Активны MOD-EPIC-04 и MOD-403; результат сверяется с критериями приемки.",
+    "Wiki, Figma-прототип, Project, CI/CD и Pages проверены.",
+    "Семестровая история ведется по фактическим действиям."
   ],
-  "personal_wip_mode": true,
   "verification": {
     "status": "passed",
     "browser_evidence": "../evidence/browser-checks.json",
     "unit_test_evidence": "../project/evidence/test.log",
-    "summary": "10 браузерных сценариев passed; 16 unit-тестов passed; lint/build logs passed. Это локальная проверка, не внешний CI."
+    "summary": "10 браузерных сценариев; текущая версия: 108 lint-проверок, 17 unit-тестов, 10 файлов сборки; реальные красный/зеленый CI и успешный deploy.",
+    "ci_failed_run": "https://github.com/akov40320/modul-labs/actions/runs/37268219608",
+    "ci_passed_run": "https://github.com/akov40320/modul-labs/actions/runs/37268345975",
+    "deploy_run": "https://github.com/akov40320/modul-labs/actions/runs/37270869722",
+    "application_url": "https://akov40320.github.io/modul-labs/",
+    "project_fields_verified": 96,
+    "status_counts": {
+      "Done": 14,
+      "In Progress": 2
+    }
   }
 }

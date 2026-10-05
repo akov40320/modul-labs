@@ -1,9 +1,13 @@
 id,action,status,reason
-EXT-01,Создать организацию Яндекс 360 и подключить Трекер,pending,Нужен владелец реального аккаунта
-EXT-02,Пригласить реальных участников и подтвердить доступ,pending,Имена/адреса других участников не указаны
-EXT-03,Опубликовать Wiki и добавить ссылки в задачи,pending,URL Wiki отсутствует
-EXT-04,Создать и опубликовать Яндекс Форму,pending,URL формы отсутствует
-EXT-05,Создать удаленный Git-репозиторий и права участников,pending,Remote отсутствует
-EXT-06,Настроить защиту main и обязательный CI,pending,Remote отсутствует
-EXT-07,Запустить PR со сломанным и исправленным тестом,pending,GitHub/GitLab не подключены
-EXT-08,"Подключить хостинг, секреты и автоматический CD",pending,Хостинг и секреты не предоставлены
+EXT-01,Создать публичный репозиторий и GitHub Project в аккаунте akov40320,done,Репозиторий https://github.com/akov40320/modul-labs; Project создан по Kanban template: https://github.com/users/akov40320/projects/1; 16 issues
+EXT-02,Настроить доступы участников по подтвержденным GitHub-логинам,pending,Доступен akov40320; другие логины и подтверждения доступа не получены
+EXT-03,Создать 4 epic и 12 задач с parent/sub-issues и полем Роль,done,"4 epic, 12 tasks, 12 native sub-issue relationships; labels 34; https://github.com/akov40320/modul-labs/issues"
+EXT-04,Опубликовать Wiki и макеты и добавить ссылки в задачи,done,"Wiki опубликована; Figma: 4 макета, 3 кадра прототипа, 3 перехода проверены; Design link заполнен во всех 16 карточках; https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+EXT-05,Опубликовать Яндекс Форму и проверить отправку; сохранить ответ Алисы AI,done,Форма и отправка проверены; response2544345845 05.10.2026 08:48:30 МСК; Alice 2 actual prompts/answers https://alice.yandex.ru/chat/01a10a9a-23e4-4000-ab5b-a5dc1bb7b0b2/
+EXT-06,Настроить 5 колонок и WIP 2 для В работе и 1 для На проверке,done,"Project: 5 статусов Backlog/To Do/In Progress/Review/Done; WIP2/1; 16 карточек, 14Done/2InProgress; 96 значений полей повторно проверены; https://github.com/users/akov40320/projects/1"
+EXT-07,Создать milestone MVP заявки и каталога на 10.10.2026,done,Milestone MVP 1.0: https://github.com/akov40320/modul-labs/milestone/1
+EXT-08,Настроить защиту main и обязательный GitHub Actions CI,done,required ci; strict; enforce admins; conversation resolution; reviews 0; no-force/no-delete
+EXT-09,Запустить PR со сломанным и исправленным тестом,done,PR https://github.com/akov40320/modul-labs/pull/1; red https://github.com/akov40320/modul-labs/actions/runs/37268219608; green https://github.com/akov40320/modul-labs/actions/runs/37268345975
+EXT-10,Разрешить конфликт feature-веток и документировать процесс,done,PR18/19/20 MERGED; PR20 CONFLICTING/DIRTY до разрешения; конфликт docs/merge-policy.md разрешен; required ci SUCCESS; evidence/online/git-conflict-log.txt; https://github.com/akov40320/modul-labs/pull/20
+EXT-11,Настроить автоматический CD после CI и опубликовать приложение,done,CI/deploy SUCCESS https://github.com/akov40320/modul-labs/actions/runs/37270869722; commit978ac9bbe0ad52505ea03835505d67e0e404e722; приложение https://akov40320.github.io/modul-labs/
+EXT-12,Вести движение задач и проверку результатов в течение семестра,ongoing,История доски пополняется по фактическому выполнению

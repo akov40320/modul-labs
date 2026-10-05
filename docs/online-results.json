@@ -1,0 +1,671 @@
+{
+  "as_of": "2026-10-05",
+  "repository": {
+    "url": "https://github.com/akov40320/modul-labs",
+    "status": "published",
+    "account": "akov40320",
+    "visibility": "public"
+  },
+  "application": {
+    "url": "https://akov40320.github.io/modul-labs/",
+    "status": "deployed",
+    "commit": "978ac9bbe0ad52505ea03835505d67e0e404e722"
+  },
+  "form": {
+    "url": "https://forms.yandex.ru/u/6ac336f295add59f2d7597ad",
+    "status": "published",
+    "questions": 8,
+    "submission_test": "passed",
+    "validation_evidence": {
+      "empty_required": "errors shown",
+      "invalid_email": "Введите корректный адрес электронной почты.",
+      "quantity_9": "Убедитесь, что значение больше либо равно 10.",
+      "quantity_10_valid_email_phone_empty": "success"
+    },
+    "quantity_validation": {
+      "integer": true,
+      "min": 10,
+      "max": 10000,
+      "product_specific_minimum_enforced": false
+    },
+    "response": {
+      "id": "2544345845",
+      "submitted_at_msk": "2026-10-05 08:48:30",
+      "name": "Проверка формы",
+      "organization": "Учебный центр Модуль",
+      "email": "demo@example.com",
+      "phone": "",
+      "product": "Классный старт",
+      "quantity": 10,
+      "consent": "Да",
+      "data_kind": "test_submission"
+    }
+  },
+  "ci": {
+    "pull_request": "https://github.com/akov40320/modul-labs/pull/1",
+    "failed_run": "https://github.com/akov40320/modul-labs/actions/runs/37268219608",
+    "passed_run": "https://github.com/akov40320/modul-labs/actions/runs/37268345975",
+    "merge_and_deploy_run": "https://github.com/akov40320/modul-labs/actions/runs/37269189301",
+    "ci_status": "success",
+    "deploy_status": "success",
+    "latest_verified_merge_and_deploy_run": "https://github.com/akov40320/modul-labs/actions/runs/37270869722"
+  },
+  "branch_protection": {
+    "branch": "main",
+    "required_contexts": [
+      "ci"
+    ],
+    "strict": true,
+    "enforce_admins": true,
+    "required_approving_review_count": 0,
+    "required_conversation_resolution": true,
+    "allow_force_pushes": false,
+    "allow_deletions": false
+  },
+  "project": {
+    "url": "https://github.com/users/akov40320/projects/1",
+    "status": "configured",
+    "columns": [
+      "Backlog",
+      "To Do",
+      "In Progress",
+      "Review",
+      "Done"
+    ],
+    "wip_in_progress": 2,
+    "wip_review": 1,
+    "configuration_verified": true,
+    "template": "Kanban",
+    "items": 16,
+    "labels": 34,
+    "configuration_status": "verified",
+    "fields": [
+      {
+        "id": "PVTF_lAHODWj9JM4BlvQwzhka4sU",
+        "name": "Title",
+        "type": "ProjectV2Field"
+      },
+      {
+        "id": "PVTF_lAHODWj9JM4BlvQwzhka4sY",
+        "name": "Assignees",
+        "type": "ProjectV2Field"
+      },
+      {
+        "id": "PVTSSF_lAHODWj9JM4BlvQwzhka4sc",
+        "name": "Status",
+        "options": [
+          {
+            "id": "f75ad846",
+            "name": "Backlog"
+          },
+          {
+            "id": "61e4505c",
+            "name": "To Do"
+          },
+          {
+            "id": "47fc9ee4",
+            "name": "In Progress"
+          },
+          {
+            "id": "df73e18b",
+            "name": "Review"
+          },
+          {
+            "id": "98236657",
+            "name": "Done"
+          }
+        ],
+        "type": "ProjectV2SingleSelectField"
+      },
+      {
+        "id": "PVTF_lAHODWj9JM4BlvQwzhka4sg",
+        "name": "Labels",
+        "type": "ProjectV2Field"
+      },
+      {
+        "id": "PVTF_lAHODWj9JM4BlvQwzhka4sk",
+        "name": "Linked pull requests",
+        "type": "ProjectV2Field"
+      },
+      {
+        "id": "PVTF_lAHODWj9JM4BlvQwzhka4so",
+        "name": "Milestone",
+        "type": "ProjectV2Field"
+      },
+      {
+        "id": "PVTF_lAHODWj9JM4BlvQwzhka4ss",
+        "name": "Repository",
+        "type": "ProjectV2Field"
+      },
+      {
+        "id": "PVTF_lAHODWj9JM4BlvQwzhka4s0",
+        "name": "Reviewers",
+        "type": "ProjectV2Field"
+      },
+      {
+        "id": "PVTF_lAHODWj9JM4BlvQwzhka4s4",
+        "name": "Parent issue",
+        "type": "ProjectV2Field"
+      },
+      {
+        "id": "PVTF_lAHODWj9JM4BlvQwzhka4s8",
+        "name": "Sub-issues progress",
+        "type": "ProjectV2Field"
+      },
+      {
+        "id": "PVTF_lAHODWj9JM4BlvQwzhka4tA",
+        "name": "Created",
+        "type": "ProjectV2Field"
+      },
+      {
+        "id": "PVTF_lAHODWj9JM4BlvQwzhka4tE",
+        "name": "Updated",
+        "type": "ProjectV2Field"
+      },
+      {
+        "id": "PVTF_lAHODWj9JM4BlvQwzhka4tI",
+        "name": "Closed",
+        "type": "ProjectV2Field"
+      },
+      {
+        "id": "PVTSSF_lAHODWj9JM4BlvQwzhka5wg",
+        "name": "Priority",
+        "options": [
+          {
+            "id": "79628723",
+            "name": "P0"
+          },
+          {
+            "id": "0a877460",
+            "name": "P1"
+          },
+          {
+            "id": "da944a9c",
+            "name": "P2"
+          }
+        ],
+        "type": "ProjectV2SingleSelectField"
+      },
+      {
+        "id": "PVTSSF_lAHODWj9JM4BlvQwzhka5wk",
+        "name": "Size",
+        "options": [
+          {
+            "id": "6c6483d2",
+            "name": "XS"
+          },
+          {
+            "id": "f784b110",
+            "name": "S"
+          },
+          {
+            "id": "7515a9f1",
+            "name": "M"
+          },
+          {
+            "id": "817d0097",
+            "name": "L"
+          },
+          {
+            "id": "db339eb2",
+            "name": "XL"
+          }
+        ],
+        "type": "ProjectV2SingleSelectField"
+      },
+      {
+        "id": "PVTF_lAHODWj9JM4BlvQwzhka5wo",
+        "name": "Estimate",
+        "type": "ProjectV2Field"
+      },
+      {
+        "id": "PVTF_lAHODWj9JM4BlvQwzhka5ws",
+        "name": "Start date",
+        "type": "ProjectV2Field"
+      },
+      {
+        "id": "PVTF_lAHODWj9JM4BlvQwzhka5ww",
+        "name": "Target date",
+        "type": "ProjectV2Field"
+      },
+      {
+        "id": "PVTF_lAHODWj9JM4BlvQwzhka8kk",
+        "name": "Design link",
+        "type": "ProjectV2Field"
+      },
+      {
+        "id": "PVTF_lAHODWj9JM4BlvQwzhka9fE",
+        "name": "Role",
+        "type": "ProjectV2Field"
+      }
+    ],
+    "verified_items": [
+      {
+        "key": "MOD-EPIC-01",
+        "issue": 2,
+        "url": "https://github.com/akov40320/modul-labs/issues/2",
+        "status": "Done",
+        "priority": "P1",
+        "role": "Team Lead / frontend",
+        "start_date": "2026-10-05",
+        "target_date": "2026-10-10",
+        "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+      },
+      {
+        "key": "MOD-EPIC-02",
+        "issue": 3,
+        "url": "https://github.com/akov40320/modul-labs/issues/3",
+        "status": "Done",
+        "priority": "P1",
+        "role": "Team Lead / frontend",
+        "start_date": "2026-10-05",
+        "target_date": "2026-10-10",
+        "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+      },
+      {
+        "key": "MOD-EPIC-03",
+        "issue": 4,
+        "url": "https://github.com/akov40320/modul-labs/issues/4",
+        "status": "Done",
+        "priority": "P1",
+        "role": "backend / DevOps",
+        "start_date": "2026-10-05",
+        "target_date": "2026-10-10",
+        "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+      },
+      {
+        "key": "MOD-EPIC-04",
+        "issue": 5,
+        "url": "https://github.com/akov40320/modul-labs/issues/5",
+        "status": "In Progress",
+        "priority": "P2",
+        "role": "аналитик / дизайн / QA",
+        "start_date": "2026-10-05",
+        "target_date": "2026-10-10",
+        "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+      },
+      {
+        "key": "MOD-101",
+        "issue": 6,
+        "url": "https://github.com/akov40320/modul-labs/issues/6",
+        "status": "Done",
+        "priority": "P1",
+        "role": "Team Lead / frontend",
+        "start_date": "2026-10-05",
+        "target_date": "2026-10-10",
+        "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+      },
+      {
+        "key": "MOD-102",
+        "issue": 7,
+        "url": "https://github.com/akov40320/modul-labs/issues/7",
+        "status": "Done",
+        "priority": "P1",
+        "role": "аналитик / дизайн / QA",
+        "start_date": "2026-10-05",
+        "target_date": "2026-10-10",
+        "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+      },
+      {
+        "key": "MOD-103",
+        "issue": 8,
+        "url": "https://github.com/akov40320/modul-labs/issues/8",
+        "status": "Done",
+        "priority": "P2",
+        "role": "аналитик / дизайн / QA",
+        "start_date": "2026-10-05",
+        "target_date": "2026-10-10",
+        "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+      },
+      {
+        "key": "MOD-201",
+        "issue": 9,
+        "url": "https://github.com/akov40320/modul-labs/issues/9",
+        "status": "Done",
+        "priority": "P1",
+        "role": "Team Lead / frontend",
+        "start_date": "2026-10-05",
+        "target_date": "2026-10-10",
+        "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+      },
+      {
+        "key": "MOD-202",
+        "issue": 10,
+        "url": "https://github.com/akov40320/modul-labs/issues/10",
+        "status": "Done",
+        "priority": "P1",
+        "role": "Team Lead / frontend",
+        "start_date": "2026-10-05",
+        "target_date": "2026-10-10",
+        "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+      },
+      {
+        "key": "MOD-203",
+        "issue": 11,
+        "url": "https://github.com/akov40320/modul-labs/issues/11",
+        "status": "Done",
+        "priority": "P2",
+        "role": "backend / DevOps",
+        "start_date": "2026-10-05",
+        "target_date": "2026-10-10",
+        "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+      },
+      {
+        "key": "MOD-301",
+        "issue": 12,
+        "url": "https://github.com/akov40320/modul-labs/issues/12",
+        "status": "Done",
+        "priority": "P1",
+        "role": "Team Lead / frontend",
+        "start_date": "2026-10-05",
+        "target_date": "2026-10-10",
+        "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+      },
+      {
+        "key": "MOD-302",
+        "issue": 13,
+        "url": "https://github.com/akov40320/modul-labs/issues/13",
+        "status": "Done",
+        "priority": "P1",
+        "role": "backend / DevOps",
+        "start_date": "2026-10-05",
+        "target_date": "2026-10-10",
+        "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+      },
+      {
+        "key": "MOD-303",
+        "issue": 14,
+        "url": "https://github.com/akov40320/modul-labs/issues/14",
+        "status": "Done",
+        "priority": "P2",
+        "role": "backend / DevOps",
+        "start_date": "2026-10-05",
+        "target_date": "2026-10-10",
+        "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+      },
+      {
+        "key": "MOD-401",
+        "issue": 15,
+        "url": "https://github.com/akov40320/modul-labs/issues/15",
+        "status": "Done",
+        "priority": "P2",
+        "role": "аналитик / дизайн / QA",
+        "start_date": "2026-10-05",
+        "target_date": "2026-10-10",
+        "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+      },
+      {
+        "key": "MOD-402",
+        "issue": 16,
+        "url": "https://github.com/akov40320/modul-labs/issues/16",
+        "status": "Done",
+        "priority": "P2",
+        "role": "backend / DevOps",
+        "start_date": "2026-10-05",
+        "target_date": "2026-10-10",
+        "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+      },
+      {
+        "key": "MOD-403",
+        "issue": 17,
+        "url": "https://github.com/akov40320/modul-labs/issues/17",
+        "status": "In Progress",
+        "priority": "P2",
+        "role": "аналитик / дизайн / QA",
+        "start_date": "2026-10-05",
+        "target_date": "2026-10-10",
+        "design_link": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/"
+      }
+    ],
+    "status_counts": {
+      "Done": 14,
+      "In Progress": 2,
+      "Review": 0,
+      "To Do": 0,
+      "Backlog": 0
+    },
+    "role_type": "TEXT",
+    "priority_mapping": {
+      "Высокий": "P1",
+      "Средний": "P2",
+      "Критический": "P0"
+    },
+    "dates": {
+      "start": "2026-10-05",
+      "target": "2026-10-10"
+    },
+    "design_link_all_items": true,
+    "wip_limits_satisfied": true,
+    "unestimated_fields": [
+      "Size",
+      "Estimate"
+    ]
+  },
+  "wiki": {
+    "url": "https://github.com/akov40320/modul-labs/wiki",
+    "status": "published",
+    "pages": 7,
+    "commit": "df26cf0e583f8a43c856c0bda6c69dfe156d4f0a"
+  },
+  "figma": {
+    "url": "https://www.figma.com/design/QJOUjnQiwxzXIUY2ATDpZm/",
+    "status": "verified",
+    "wireframe_screens": 4,
+    "wireframes_uploaded_verified": true,
+    "clickable_prototype_verified": true,
+    "prototype_status": "verified",
+    "prototype_url": "https://www.figma.com/proto/QJOUjnQiwxzXIUY2ATDpZm/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C-%E2%80%94-MVP-%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%D1%8B-%D0%B8-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9-%D0%BF%D1%83%D1%82%D1%8C?node-id=1-105&t=QIxddXrGjI39AaY0-0&scaling=min-zoom&content-scaling=fixed&page-id=1%3A104&starting-point-node-id=1%3A105",
+    "prototype_frames": [
+      "01 Главная и каталог",
+      "02 Форма коммерческого предложения",
+      "03 Заявка принята"
+    ],
+    "verified_transitions": [
+      "catalog_to_form",
+      "submit_to_success",
+      "return_to_catalog"
+    ],
+    "pages": [
+      "Page 1",
+      "Прототип",
+      "User Flow"
+    ],
+    "public_view_access": "anyone with link can view",
+    "user_flow_nodes": 6
+  },
+  "alice": {
+    "url": "https://alice.yandex.ru/chat/01a10a9a-23e4-4000-ab5b-a5dc1bb7b0b2/",
+    "status": "completed",
+    "answer_saved": true,
+    "prompt_count": 2,
+    "session_document": "docs/lab1/alice-session.md"
+  },
+  "teachers": [
+    "Абарникова Елена Борисовна",
+    "Шаповалова Варвара Сергеевна"
+  ],
+  "team": [
+    {
+      "name": "А.А. Первых",
+      "role": "Team Lead / frontend",
+      "github": "akov40320"
+    },
+    {
+      "name": "Мария Волкова",
+      "role": "аналитик / дизайн / QA",
+      "github": null
+    },
+    {
+      "name": "Дмитрий Орлов",
+      "role": "backend / DevOps",
+      "github": null
+    }
+  ],
+  "remote_conflict_evidence": {
+    "status": "verified",
+    "baseline_pr": "https://github.com/akov40320/modul-labs/pull/18",
+    "first_pr": "https://github.com/akov40320/modul-labs/pull/19",
+    "conflicting_pr": "https://github.com/akov40320/modul-labs/pull/20",
+    "before_resolution": {
+      "mergeable": "CONFLICTING",
+      "mergeStateStatus": "DIRTY",
+      "rest_mergeable": false
+    },
+    "resolution_commit": "ee85890c946ddb4c6a859d67d30b7d4950b7e29c",
+    "resolution_commit_parents": 2,
+    "final_main_commit": "978ac9bbe0ad52505ea03835505d67e0e404e722",
+    "postmerge_ci_deploy_run": "https://github.com/akov40320/modul-labs/actions/runs/37270869722",
+    "ci_status": "success",
+    "deploy_status": "success",
+    "actual_github_author": "akov40320"
+  },
+  "semester_history": {
+    "status": "ongoing",
+    "completion_claimed": false
+  },
+  "milestone": {
+    "url": "https://github.com/akov40320/modul-labs/milestone/1",
+    "title": "MVP 1.0",
+    "status": "created",
+    "issues": 16,
+    "epics": 4,
+    "tasks": 12,
+    "native_subissue_relationships": 12
+  },
+  "issue_hierarchy": [
+    {
+      "key": "MOD-EPIC-01",
+      "url": "https://github.com/akov40320/modul-labs/issues/2",
+      "parent": null,
+      "state_at_import": "open",
+      "project_status": "Done",
+      "current_issue_state": "closed"
+    },
+    {
+      "key": "MOD-EPIC-02",
+      "url": "https://github.com/akov40320/modul-labs/issues/3",
+      "parent": null,
+      "state_at_import": "open",
+      "project_status": "Done",
+      "current_issue_state": "closed"
+    },
+    {
+      "key": "MOD-EPIC-03",
+      "url": "https://github.com/akov40320/modul-labs/issues/4",
+      "parent": null,
+      "state_at_import": "open",
+      "project_status": "Done",
+      "current_issue_state": "closed"
+    },
+    {
+      "key": "MOD-EPIC-04",
+      "url": "https://github.com/akov40320/modul-labs/issues/5",
+      "parent": null,
+      "state_at_import": "open",
+      "project_status": "In Progress",
+      "current_issue_state": "open"
+    },
+    {
+      "key": "MOD-101",
+      "url": "https://github.com/akov40320/modul-labs/issues/6",
+      "parent": "MOD-EPIC-01",
+      "state_at_import": "open",
+      "project_status": "Done",
+      "current_issue_state": "closed"
+    },
+    {
+      "key": "MOD-102",
+      "url": "https://github.com/akov40320/modul-labs/issues/7",
+      "parent": "MOD-EPIC-01",
+      "state_at_import": "open",
+      "project_status": "Done",
+      "current_issue_state": "closed"
+    },
+    {
+      "key": "MOD-103",
+      "url": "https://github.com/akov40320/modul-labs/issues/8",
+      "parent": "MOD-EPIC-01",
+      "state_at_import": "open",
+      "project_status": "Done",
+      "current_issue_state": "closed"
+    },
+    {
+      "key": "MOD-201",
+      "url": "https://github.com/akov40320/modul-labs/issues/9",
+      "parent": "MOD-EPIC-02",
+      "state_at_import": "open",
+      "project_status": "Done",
+      "current_issue_state": "closed"
+    },
+    {
+      "key": "MOD-202",
+      "url": "https://github.com/akov40320/modul-labs/issues/10",
+      "parent": "MOD-EPIC-02",
+      "state_at_import": "open",
+      "project_status": "Done",
+      "current_issue_state": "closed"
+    },
+    {
+      "key": "MOD-203",
+      "url": "https://github.com/akov40320/modul-labs/issues/11",
+      "parent": "MOD-EPIC-02",
+      "state_at_import": "open",
+      "project_status": "Done",
+      "current_issue_state": "closed"
+    },
+    {
+      "key": "MOD-301",
+      "url": "https://github.com/akov40320/modul-labs/issues/12",
+      "parent": "MOD-EPIC-03",
+      "state_at_import": "open",
+      "project_status": "Done",
+      "current_issue_state": "closed"
+    },
+    {
+      "key": "MOD-302",
+      "url": "https://github.com/akov40320/modul-labs/issues/13",
+      "parent": "MOD-EPIC-03",
+      "state_at_import": "open",
+      "project_status": "Done",
+      "current_issue_state": "closed"
+    },
+    {
+      "key": "MOD-303",
+      "url": "https://github.com/akov40320/modul-labs/issues/14",
+      "parent": "MOD-EPIC-03",
+      "state_at_import": "open",
+      "project_status": "Done",
+      "current_issue_state": "closed"
+    },
+    {
+      "key": "MOD-401",
+      "url": "https://github.com/akov40320/modul-labs/issues/15",
+      "parent": "MOD-EPIC-04",
+      "state_at_import": "open",
+      "project_status": "Done",
+      "current_issue_state": "closed"
+    },
+    {
+      "key": "MOD-402",
+      "url": "https://github.com/akov40320/modul-labs/issues/16",
+      "parent": "MOD-EPIC-04",
+      "state_at_import": "open",
+      "project_status": "Done",
+      "current_issue_state": "closed"
+    },
+    {
+      "key": "MOD-403",
+      "url": "https://github.com/akov40320/modul-labs/issues/17",
+      "parent": "MOD-EPIC-04",
+      "state_at_import": "open",
+      "project_status": "In Progress",
+      "current_issue_state": "open"
+    }
+  ],
+  "issue15": {
+    "url": "https://github.com/akov40320/modul-labs/issues/15",
+    "state": "closed",
+    "state_reason": "completed",
+    "project_status": "Done"
+  }
+}
