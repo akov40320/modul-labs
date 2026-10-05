@@ -1,4 +1,5 @@
 import { CATEGORIES, calculateQuote, filterCatalog, formatMoney, restoreCatalog, restoreLeads, validateLead, validateProduct } from './domain.js';
+import { YANDEX_FORM_URL } from './service-config.js';
 
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
@@ -15,6 +16,13 @@ const leadForm = $('#lead-form');
 const productForm = $('#product-form');
 const element = (tag, className, value) => { const node = document.createElement(tag); if (className) node.className = className; if (value !== undefined) node.textContent = value; return node; };
 const action = (label, className, handler) => { const button = element('button', className, label); button.type = 'button'; button.addEventListener('click', handler); return button; };
+
+if (YANDEX_FORM_URL.startsWith('https://forms.yandex.ru/')) {
+  const link = element('a', 'button form-submit', 'Открыть форму в Яндексе ↗');
+  link.id = 'yandex-form-link'; link.href = YANDEX_FORM_URL;
+  link.target = '_blank'; link.rel = 'noopener noreferrer';
+  $('.request-grid > div').append(link);
+}
 
 function productIllustration(product) {
   const img = element('img');

@@ -2,6 +2,7 @@ import { access, readFile, readdir } from 'node:fs/promises';
 import { dirname, extname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
+import { YANDEX_FORM_URL } from '../app/service-config.js';
 
 const project = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 let checks = 0;
@@ -41,6 +42,14 @@ for (const match of html.matchAll(/href="#([^"]+)"/g)) {
   checks += 1;
 }
 const main = await readFile(resolve(app, 'main.js'), 'utf8');
+for (const match of main.matchAll(/\bfrom\s+['"](\.\/[^'"]+)['"]/g)) {
+  await access(resolve(app, match[1])); checks += 1;
+}
+if (YANDEX_FORM_URL !== '') {
+  const formURL = new URL(YANDEX_FORM_URL);
+  if (formURL.protocol !== 'https:' || formURL.hostname !== 'forms.yandex.ru' || formURL.username || formURL.password) fail('Use the public HTTPS URL from Yandex Forms');
+}
+checks += 1;
 for (const match of main.matchAll(/\$\(['"]#([a-z][a-z0-9-]*)['"]\)/gi)) {
   if (!ids.includes(match[1])) fail(`Missing DOM element #${match[1]}`);
   checks += 1;

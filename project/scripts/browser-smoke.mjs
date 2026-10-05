@@ -6,7 +6,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 
 // Optional verification tool. The application itself has no dependencies.
 const project = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const evidence = resolve(project, '../evidence');
+const evidence = resolve(process.env.SMOKE_EVIDENCE_DIR || resolve(project, '../evidence'));
 const logs = resolve(project, 'evidence');
 await mkdir(evidence, { recursive: true }); await mkdir(logs, { recursive: true });
 const moduleLocation = process.env.PLAYWRIGHT_MODULE_PATH;
